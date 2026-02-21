@@ -33,16 +33,16 @@ export function Testimonials() {
         {/* CTA row */}
         <div className="mt-16 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
           <a
-            href={content.primaryCta.href}
+            href="/book-a-call"
             className="inline-flex items-center justify-center rounded-md bg-accent px-8 py-3.5 text-sm font-medium text-accent-foreground transition-colors hover:bg-accent/90"
           >
-            {content.primaryCta.label}
+            Book a Call
           </a>
           <a
-            href={content.secondaryCta.href}
-            className="inline-flex items-center justify-center rounded-md bg-accent px-8 py-3.5 text-sm font-medium text-accent-foreground transition-colors hover:bg-accent/90"
+            href="#contact"
+            className="inline-flex items-center justify-center rounded-md border border-border px-8 py-3.5 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
           >
-            {content.secondaryCta.label}
+            Ask a Question
           </a>
         </div>
       </div>
