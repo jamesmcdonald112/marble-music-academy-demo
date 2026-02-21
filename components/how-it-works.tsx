@@ -8,6 +8,7 @@ const iconMap: Record<string, LucideIcon> = {
 }
 
 const { tagline, heading, steps } = siteContent.howItWorks
+const bookingCta = siteContent.booking
 
 export function HowItWorks() {
   return (
@@ -40,6 +41,29 @@ export function HowItWorks() {
             </div>
             )
           })}
+        </div>
+
+        <div className="mt-16 flex flex-col items-center gap-3 rounded-lg border border-border bg-primary px-8 py-12 text-center">
+          <h3 className="font-serif text-2xl tracking-tight text-primary-foreground md:text-3xl text-balance">
+            Ready to get started?
+          </h3>
+          <p className="max-w-md text-sm text-primary-foreground/70 leading-relaxed">
+            Book a call to check availability, or ask a question first if you want to talk it through.
+          </p>
+          <div className="mt-4 flex flex-col items-center gap-3 sm:flex-row">
+            <a
+              href={bookingCta.ctaHref}
+              className="inline-flex items-center justify-center rounded-md bg-accent px-8 py-3.5 text-sm font-medium text-accent-foreground transition-colors hover:bg-accent/90"
+            >
+              {bookingCta.ctaLabel}
+            </a>
+            <a
+              href="#contact"
+              className="inline-flex items-center justify-center rounded-md border border-primary-foreground/20 px-8 py-3.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary-foreground/10"
+            >
+              Ask a Question
+            </a>
+          </div>
         </div>
       </div>
     </section>

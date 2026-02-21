@@ -10,45 +10,44 @@
 export const siteContent = {
   // ─── Global / Meta ───────────────────────────────────────────────
   meta: {
-    title: "Guitar Lessons for Busy Professionals | Online 1:1 Tuition",
+    title: "Group Guitar Lessons in Kilkenny | Marble Music Academy",
     description:
-      "Structured, personalised online guitar lessons designed for busy adults. 9+ years experience, 300+ students taught. Book your first lesson today.",
+      "Group guitar lessons for ages 8–15 in Kilkenny. Structured 5-week beginner intake (€90) followed by term-based groups (€18/lesson). Limited private lessons available.",
     themeColor: "#f6f3ef",
-    /** Google Analytics Measurement ID – set to "" to disable */
-    gaId: "G-0NN2JH51SF",
   },
 
   // ─── Header ──────────────────────────────────────────────────────
   header: {
-    logo: "Guitar with James",
+    logo: "Marble Music Academy",
     navLinks: [
       { label: "How It Works", href: "#how-it-works" },
-      { label: "Lessons", href: "#lessons" },
+      { label: "Programmes", href: "#programs" },
       { label: "About", href: "#about" },
+      { label: "FAQ", href: "#faq" },
       { label: "Contact", href: "#contact" },
     ],
-    ctaLabel: "Book a Lesson",
-    ctaHref: "#book",
+    ctaLabel: "Book a Call",
+    ctaHref: "/book-a-call",
   },
 
   // ─── Hero ────────────────────────────────────────────────────────
   hero: {
-    tagline: "Online 1:1 Guitar Lessons",
-    heading: "Learn guitar on your schedule",
-    image: { src: "/hero.webp", alt: "Close-up of fingers playing guitar strings" },
+    tagline: "Group Guitar Lessons in Kilkenny",
+    heading: "Structured Group Classes That Actually Work",
+    image: { src: "/hero.webp", alt: "Small group guitar class" },
     description:
-      "Structured, personalised lessons designed for busy professionals who want real progress without wasting time.",
-    primaryCta: { label: "Book a Lesson", href: "#book" },
+      "Group guitar lessons for ages 8–15. Clear weekly structure, consistent progress, and a low-risk 5-week beginner intake — instruments included so they can try it properly before committing.",
+    primaryCta: { label: "Book a Call", href: "/book-a-call" },
     secondaryCta: { label: "Ask a Question", href: "#contact" },
   },
 
   // ─── Credentials ─────────────────────────────────────────────────
   credentials: {
     stats: [
-      { value: "9+", label: "Years Teaching" },
+      { value: "7+", label: "Years Teaching" },
       { value: "300+", label: "Students Taught" },
-      { value: "80\u201390%+", label: "Typical Exam Scores" },
-      { value: "1st Class", label: "Honours in Music" },
+      { value: "3–6", label: "Students Per Group" },
+      { value: "80–90%+", label: "Typical Exam Scores" },
     ],
   },
 
@@ -59,21 +58,21 @@ export const siteContent = {
     steps: [
       {
         iconName: "CalendarCheck" as const,
-        title: "Book a time that suits you",
+        title: "Enquire or book a call",
         description:
-          "Choose a 30, 45, or 60 minute slot that fits your schedule. Lessons happen over Zoom, so you can learn from anywhere.",
+          "Submit an enquiry or book a short call. We’ll confirm age, current level, and the days/times that work for your family.",
       },
       {
         iconName: "Target" as const,
-        title: "Get a structured plan",
+        title: "5 Weeks Beginner Program (€90)",
         description:
-          "No aimless noodling. Every lesson follows a clear plan tailored to your goals, skill level, and the time you have to practise.",
+          "A structured introduction used to build fundamentals and make sure the class environment is the right fit before long-term placement.",
       },
       {
         iconName: "TrendingUp" as const,
-        title: "See real progress",
+        title: "Move into a long-term group",
         description:
-          "Track your improvement week by week. Efficient practice routines mean you make genuine progress, even with a busy life.",
+          "Students are placed into small, age and level-appropriate groups (3–6 students) on a fixed weekly schedule. Billed by term to protect group stability and support steady progress.",
       },
     ],
   },
@@ -81,184 +80,198 @@ export const siteContent = {
   // ─── Video Preview ───────────────────────────────────────────────
   videoPreview: {
     tagline: "See It in Action",
-    heading: "A taste of how I teach",
+    heading: "What a class looks like",
     description:
-      "Watch a short clip to see what a lesson looks like. Structured, focused, and always tailored to where you are right now.",
-    videoEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    playButtonLabel: "Watch a lesson preview",
+      "A short clip showing how sessions run: structured progression, clear rhythm work, and practical guidance students can follow at home.",
+    videoEmbedUrl: "https://www.youtube.com/embed/H3Yz4XaMKCM",
+    playButtonLabel: "Watch a class preview",
     footnote:
-      "This is a short preview. Every lesson is fully personalised to your goals.",
+      "Groups are segmented by age and level to keep the pace right for everyone.\nDemo footage for website demonstration only; all rights belong to the original creator: https://www.youtube.com/watch?v=H3Yz4XaMKCM",
   },
 
-  // ─── Lessons ─────────────────────────────────────────────────────
-  lessons: {
-    tagline: "Lessons",
-    heading: "Choose the format that fits your life",
+  // ─── Programs ────────────────────────────────────────────────────
+  programs: {
+    tagline: "Programmes",
+    heading: "Choose the right starting point",
     description:
-      "All lessons are 1:1 over Zoom. Every session is personalised to your goals, pace, and the music you want to play.",
+      "The model is simple: begin with a low-risk structured intake, then progress into a stable long-term group.",
     types: [
       {
-        duration: "30 min",
-        label: "Focused Session",
+        duration: "€90 total (5 weeks)",
+        label: "Beginner Group Program",
         description:
-          "Perfect for maintaining momentum between longer sessions. Ideal for targeted technique work or quick check-ins on your progress.",
-        suited: "Best for weekly top-ups",
-        highlighted: false,
-      },
-      {
-        duration: "45 min",
-        label: "Standard Session",
-        description:
-          "The most popular option. Enough time to warm up, work on new material, and practise together. A great balance of depth and efficiency.",
-        suited: "Most popular",
+          "A structured 5-week beginner programme (€90) that builds core fundamentals. Classes are organised in small groups (3–6 students) by age and skill level (typically ages 8–15). Instruments are provided, so there’s no upfront equipment cost and no long-term commitment to start.",
+        suited: "Best for new starters",
         highlighted: true,
       },
       {
-        duration: "60 min",
-        label: "Deep Dive",
+        duration: "€18 per lesson (billed by term)",
+        label: "Group Program",
         description:
-          "For those who want to go deeper. Cover multiple topics, learn full songs, or work through theory and technique in a single session.",
-        suited: "Best for faster progress",
+          "Students from the Beginner Group Program who want to continue move into this next option. Small-group classes (3–6 students) for ages 8–15 are organised by age and skill level, with a fixed weekly time slot, structured progression curriculum, and steady weekly momentum.",
+        suited: "Best for long-term progress",
+        highlighted: false,
+      },
+      {
+        duration: "€50 per private lesson",
+        label: "Private Lessons (Limited)",
+        description:
+          "For families or adults who need flexibility and can’t commit to a fixed weekly group slot. Limited availability.",
+        suited: "Best for flexibility needs",
         highlighted: false,
       },
     ],
-    ctaBand: {
-      heading: "Ready to make real progress?",
-      description:
-        "Your first lesson includes a free consultation to map out your goals and build a personalised plan.",
-      primaryCta: { label: "Book a Lesson", href: "#book" },
-      secondaryCta: { label: "Ask a Question", href: "#contact" },
-    },
   },
 
   // ─── About ───────────────────────────────────────────────────────
   about: {
     tagline: "About",
     heading: "Your teacher",
-    image: { src: "/about.webp", alt: "James playing classical guitar" },
+    image: { src: "/about.webp", alt: "Guitar teacher in Kilkenny" },
     paragraphs: [
-      "I\u2019m James, and I\u2019ve been teaching guitar for over nine years. I hold a first-class honours degree in music, and I\u2019ve had the privilege of working with more than 300 students\u2009\u2014\u2009from complete beginners to those preparing for graded exams.",
-      "My students who have taken exams typically score between 80\u201390%+. But results aside, what I care about most is helping you enjoy the process and see real, measurable improvement.",
-      "I specialise in working with busy adults. That means no wasted time, no vague advice\u2009\u2014\u2009just clear, structured teaching that respects your schedule and gets you playing the music you love.",
+      "I’m James, a classical guitarist and teacher based in Kilkenny. I’ve spent over nine years teaching and have worked with more than 300 students — from complete beginners to exam candidates.",
+      "My own training was built on discipline and high standards. I won First Prize at the 2017 and 2018 Feis Ceoil National Classical Guitar Competitions, as well as the 2017 Bridget Doolan Award for Outstanding Performance at WIT. I also hold a First Class Honours degree in Music.",
+      "Music, for me, has always been about more than performance. It’s about focus, patience, and learning how progress actually works. I believe students don’t need constant motivation — they need clarity, consistency, and someone who sets the standard.",
+      "Whether a student chooses to take exams or simply wants to enjoy playing, my aim is the same: build strong foundations, develop confidence, and help them experience real, measurable improvement over time.",
     ],
   },
 
   // ─── Song Examples ───────────────────────────────────────────────
   songExamples: {
-    tagline: "Song Examples",
-    heading: "Learn songs you actually want to play",
+    tagline: "What They’ll Learn",
+    heading: "Songs used to teach real fundamentals",
     description:
-      "Examples of songs we can work toward (tailored to your level).",
-    ctaLabel: "Book a Lesson",
-    ctaHref: "#book",
+      "Song choices depend on age and level. The goal is progression: timing, chord control, clean changes, and playing confidently in time.",
+    ctaLabel: "Book a Call",
+    ctaHref: "/book-a-call",
+    secondaryCtaLabel: "Ask a Question",
+    secondaryCtaHref: "#contact",
     songs: [
-      {
-        title: "Wish You Were Here",
-        artist: "Pink Floyd",
-        difficulty: "Beginner",
-        videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      },
       {
         title: "Wonderwall",
         artist: "Oasis",
         difficulty: "Beginner",
-        videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        videoUrl: "https://www.youtube.com/watch?v=bx1Bh8ZvH84",
       },
       {
-        title: "Blackbird",
-        artist: "The Beatles",
-        difficulty: "Intermediate",
-        videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      },
-      {
-        title: "Hotel California",
-        artist: "Eagles",
-        difficulty: "Intermediate",
-        videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      },
-      {
-        title: "Tears in Heaven",
-        artist: "Eric Clapton",
-        difficulty: "Intermediate",
-        videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      },
-      {
-        title: "Nothing Else Matters",
-        artist: "Metallica",
-        difficulty: "Intermediate",
-        videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        title: "Wish You Were Here",
+        artist: "Pink Floyd",
+        difficulty: "Beginner",
+        videoUrl: "https://www.youtube.com/watch?v=IXdNnw99-Ic",
       },
       {
         title: "Fast Car",
         artist: "Tracy Chapman",
         difficulty: "Beginner",
-        videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        videoUrl: "https://www.youtube.com/watch?v=AIOAlaACuv4",
+      },
+      {
+        title: "Blackbird",
+        artist: "The Beatles",
+        difficulty: "Intermediate",
+        videoUrl: "https://www.youtube.com/watch?v=Man4Xw8Xypo",
+      },
+      {
+        title: "Tears in Heaven",
+        artist: "Eric Clapton",
+        difficulty: "Intermediate",
+        videoUrl: "https://www.youtube.com/watch?v=JxPj3GAYYZ0",
+      },
+      {
+        title: "Hotel California",
+        artist: "Eagles",
+        difficulty: "Intermediate",
+        videoUrl: "https://www.youtube.com/watch?v=09839DpTctU",
+      },
+      {
+        title: "Nothing Else Matters",
+        artist: "Metallica",
+        difficulty: "Intermediate",
+        videoUrl: "https://www.youtube.com/watch?v=tAGnKpE4NCI",
       },
       {
         title: "Hallelujah",
-        artist: "Leonard Cohen",
-        difficulty: "Beginner",
-        videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        artist: "Jeff Buckley",
+        difficulty: "Intermediate",
+        videoUrl: "https://www.youtube.com/watch?v=y8AWFf7EAc4",
       },
       {
-        title: "Classical Gas",
-        artist: "Mason Williams",
-        difficulty: "Advanced",
-        videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        title: "Dust in the Wind",
+        artist: "Kansas",
+        difficulty: "Intermediate",
+        videoUrl: "https://www.youtube.com/watch?v=tH2w6Oxx0kQ",
       },
     ],
   },
 
   // ─── Testimonials ────────────────────────────────────────────────
   testimonials: {
-    tagline: "What Students Say",
-    heading: "Real progress, real people",
+    tagline: "What Parents Say",
+    heading: "Structure beats motivation",
     items: [
       {
         quote:
-          "I tried learning on my own for years. After just a few weeks with James, I was playing songs I never thought I could. The structured approach makes all the difference.",
+          "My son settled in quickly and actually looks forward to class each week. The routine has made practice much easier at home.",
+        name: "Mary P.",
+        role: "Group program",
+      },
+      {
+        quote:
+          "The beginner programme was a great start. We could see steady progress without feeling pressured to commit straight away.",
+        name: "John K.",
+        role: "Group program",
+      },
+      {
+        quote:
+          "Everything is well organised and clearly explained. It feels like a proper learning path, not just random songs each week.",
+        name: "Aoife R.",
+        role: "Group program",
+      },
+      {
+        quote:
+          "The fixed weekly time has helped massively. We are no longer trying to guess what to practise, and progress has been steady.",
+        name: "Liam D.",
+        role: "Group program",
+      },
+      {
+        quote:
+          "I liked that we could start without buying gear straight away. The classes are structured, calm, and easy for kids to follow.",
         name: "Sarah M.",
-        role: "Marketing Director",
+        role: "Group program",
       },
       {
         quote:
-          "As someone with very little free time, I needed a teacher who wouldn\u2019t waste a single minute. James is exactly that. Every lesson is focused and productive.",
-        name: "David R.",
-        role: "Software Engineer",
-      },
-      {
-        quote:
-          "I picked up the guitar at 40 and scored 87% on my Grade 3 exam within a year. James has a real gift for making complex things feel simple.",
-        name: "Tom K.",
-        role: "Financial Analyst",
+          "Communication has been excellent from day one. The class structure is clear, and my daughter has become much more confident playing at home.",
+        name: "Niamh C.",
+        role: "Group program",
       },
     ],
-    primaryCta: { label: "Book a Lesson", href: "#book" },
-    secondaryCta: { label: "Ask a Question", href: "#contact" },
+    primaryCta: { label: "Enquire Now", href: "#contact" },
+    secondaryCta: { label: "Book a Call", href: "/book-a-call" },
   },
 
   // ─── Lead Magnet ──────────────────────────────────────────────────
   leadMagnet: {
     tagline: "Free Download",
-    heading: "The Simple Guitar Practice Framework",
+    heading: "Beginner Guitar Starter Pack",
     description:
-      "A clear, repeatable system for making real progress with limited time. Used by 300+ students to build effective practice habits.",
+      "A simple guide for parents: what to expect in the first few weeks, how practice should look at home, and how to support progress without nagging.",
     bulletPoints: [
-      "The three-stage practice cycle",
-      "The \"three clean\" rule for faster learning",
-      "How to practise when you only have 10 minutes",
-      "Why slow practice builds lasting skill",
+      "What a realistic practice week looks like",
+      "How to avoid early beginner mistakes",
+      "What to buy (and what not to buy) first",
+      "How progress is measured in class",
     ],
-    pdfPath: "/simple-guitar-practice-framework.pdf",
-    pdfFileName: "Simple-Guitar-Practice-Framework.pdf",
+    pdfPath: "/beginner-guitar-starter-pack.pdf",
+    pdfFileName: "Beginner-Guitar-Starter-Pack.pdf",
     fields: {
-      name: { label: "First name", placeholder: "Your first name" },
+      name: { label: "Parent name", placeholder: "Your name" },
       email: { label: "Email", placeholder: "you@email.com" },
     },
-    submitLabel: "Send Me the Guide",
+    submitLabel: "Send Me the Starter Pack",
     successHeading: "Check your inbox!",
     successMessage:
-      "Your free guide is on its way. If you don\u2019t see it within a few minutes, check your spam folder.",
+      "Your download is on its way. If you don’t see it within a few minutes, check spam/junk.",
     footnote: "No spam. Unsubscribe any time.",
   },
 
@@ -268,67 +281,75 @@ export const siteContent = {
     heading: "Frequently asked questions",
     items: [
       {
-        question: "Am I too old to start?",
+        question: "What ages are the group lessons for?",
         answer:
-          "Not at all. Adults often progress faster because they\u2019re focused and intentional with their time. The key isn\u2019t age \u2014 it\u2019s consistency. Even small, regular practice blocks create real momentum.",
+          "Group programs are primarily for ages 8–15. Groups are segmented by age bracket to keep the pace and class dynamic right.",
       },
       {
-        question: "How much practice do I need each week?",
+        question: "How big are the groups?",
         answer:
-          "If you take a one-hour lesson, a good benchmark is roughly 4\u20135 hours of practice per week. That\u2019s not always realistic for busy professionals, so we focus on making your available time highly effective. A practical minimum is 1\u20132 hours per week spread across at least 3 days.",
+          "Groups are kept small — typically 3–6 students — so students still get individual attention while benefiting from a cohort environment.",
       },
       {
-        question: "What do I need for online lessons?",
+        question: "Do we have to commit long-term straight away?",
         answer:
-          "A reliable internet connection, a laptop or tablet with a camera, and good lighting so I can clearly see your hands. Headphones are helpful but not essential. I\u2019ll guide you through setup so your sessions run smoothly from the start.",
+          "No. Most students start with the €90 5-week beginner programme first. After that, students are placed into the right long-term group cohort.",
       },
       {
-        question: "How do rescheduling and cancellations work?",
+        question: "Why is the weekly slot fixed?",
         answer:
-          "Lessons can be rescheduled outside a 24-hour window using Calendly. Changes within 24 hours aren\u2019t refundable. This keeps the schedule consistent and ensures committed progress.",
+          "Consistency is what drives progress, and the group structure depends on predictable attendance. Flexibility tends to break momentum and disrupts the class for everyone.",
       },
       {
-        question: "What will we focus on in the first lesson?",
+        question: "Can we pay weekly instead of upfront per term?",
         answer:
-          "If you\u2019re starting from scratch, we\u2019ll cover basic rhythm reading, how to read guitar tablature, and playing in time with a recording. You\u2019ll leave with a clear practice plan. The goal is to give you structure and early wins from day one.",
+          "Term payments are collected upfront to protect the group’s stability and ensure places are held. If you need pay-as-you-go flexibility, private lessons are the better fit (limited availability).",
+      },
+      {
+        question: "What if the schedule doesn’t suit?",
+        answer:
+          "If there’s no suitable slot available, you can join the waiting list. When a space opens in the right bracket, you’ll be contacted first.",
       },
     ],
   },
 
   // ─── Booking ─────────────────────────────────────────────────────
   booking: {
-    tagline: "Book a Lesson",
-    heading: "Ready to start playing?",
+    tagline: "Start Here",
+    heading: "Join the 5-Week Beginner Intake",
     description:
-      "Pick a time that works for you. Your first lesson includes a short consultation to understand your goals and build your personalised learning plan.",
-    ctaLabel: "Book a Lesson",
-    ctaHref: "https://calendly.com",
-    footnote: "Free consultation included with your first lesson",
+      "The beginner intake is the simplest way to start: structured, low-risk, and designed to prepare students for long-term group progression.",
+    ctaLabel: "Book a Call",
+    ctaHref: "/book-a-call",
+    secondaryCtaLabel: "Ask a Question",
+    secondaryCtaHref: "#contact",
+    footnote:
+      "Most families decide same day or within 24 hours once the schedule fit is confirmed.",
   },
 
   // ─── Contact Form ────────────────────────────────────────────────
   contact: {
     tagline: "Get in Touch",
-    heading: "Have a question?",
+    heading: "Enquire about availability",
     description:
-      "Send me your details and I\u2019ll get back to you within 24 hours.",
+      "Tell me the student’s age, experience level, and what days/times suit. You’ll get a response within 24 hours.",
     submitLabel: "Send Enquiry",
     successHeading: "Thank you",
     successMessage: "I\u2019ll be in touch within 24 hours.",
     fields: {
-      name: { label: "Name", placeholder: "Your name", required: true },
+      name: { label: "Parent name", placeholder: "Your name", required: true },
       email: { label: "Email", placeholder: "you@email.com", required: true },
-      phone: { label: "Phone", placeholder: "+44 7000 000000", required: false },
+      phone: { label: "Phone", placeholder: "+353 ...", required: true },
     },
   },
 
   // ─── Footer ──────────────────────────────────────────────────────
   footer: {
-    name: "Your Name",
-    tagline: "Online Guitar Lessons for Busy Professionals",
-    email: "youremail@example.com",
-    ctaLabel: "Book a Lesson",
-    ctaHref: "#book",
+    name: "Marble Music Academy",
+    tagline: "Group Guitar Lessons in Kilkenny",
+    email: "marblemusicacademy@example.com",
+    ctaLabel: "Book a Call",
+    ctaHref: "/book-a-call",
     secondaryCtaLabel: "Ask a Question",
     secondaryCtaHref: "#contact",
   },

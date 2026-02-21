@@ -2,9 +2,9 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Online Guitar Lessons",
+  title: "Privacy Policy | Marble Music Academy",
   description:
-    "How your personal data is collected, used, and protected when using this website and booking guitar lessons.",
+    "How your personal data is collected, used, and protected when using this website and booking lessons.",
 }
 
 const LAST_UPDATED = "February 2026"
@@ -67,12 +67,6 @@ export default function PrivacyPolicy() {
                 preferences collected through Calendly when you schedule a
                 lesson.
               </li>
-              <li>
-                <strong>Basic analytics data</strong> &mdash; such as pages
-                visited, browser type, and general location (country level).
-                This data is anonymised and used to understand how visitors use
-                the site.
-              </li>
             </ul>
           </Section>
 
@@ -85,10 +79,6 @@ export default function PrivacyPolicy() {
               <li>
                 To send occasional follow-up emails related to your lessons
                 (never spam or third-party marketing).
-              </li>
-              <li>
-                To understand how the website is used so I can improve it over
-                time.
               </li>
             </ul>
             <p className="mt-3">
@@ -114,11 +104,6 @@ export default function PrivacyPolicy() {
                   privacy policy
                 </a>
                 .
-              </li>
-              <li>
-                <strong>Analytics provider</strong> &mdash; I use a
-                privacy-focused analytics tool to collect anonymous usage data.
-                No personally identifiable information is tracked.
               </li>
               <li>
                 <strong>Vercel</strong> &mdash; this website is hosted on

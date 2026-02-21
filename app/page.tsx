@@ -1,13 +1,13 @@
 import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
 import { Credentials } from "@/components/credentials"
+import { Programs } from "@/components/programs"
+import { LeadMagnet } from "@/components/lead-magnet"
 import { HowItWorks } from "@/components/how-it-works"
 import { VideoPreview } from "@/components/video-preview"
-import { Lessons } from "@/components/lessons"
 import { About } from "@/components/about"
 import { SongExamples } from "@/components/song-examples"
 import { Testimonials } from "@/components/testimonials"
-import { LeadMagnet } from "@/components/lead-magnet"
 import { Faq } from "@/components/faq"
 import { Booking } from "@/components/booking"
 import { ContactForm } from "@/components/contact-form"
@@ -20,10 +20,10 @@ export default function Page() {
       <main>
         <Hero />
         <Credentials />
+        <Programs />
         <LeadMagnet />
         <HowItWorks />
         <VideoPreview />
-        <Lessons />
         <About />
         <SongExamples />
         <Testimonials />

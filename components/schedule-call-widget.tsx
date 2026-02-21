@@ -20,18 +20,18 @@ export function ScheduleCallWidget() {
     <>
       <button
         onClick={() => setOpen(true)}
-        aria-label="Schedule a free consultation call"
+        aria-label="Book a free consultation call"
         className="fixed bottom-6 right-6 z-40 flex items-center justify-center gap-2 rounded-full bg-accent text-accent-foreground shadow-lg transition-all hover:scale-105 hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 h-12 w-12 sm:h-auto sm:w-auto sm:px-5 sm:py-3"
       >
         <Calendar className="h-5 w-5 shrink-0" />
-        <span className="hidden text-sm font-semibold sm:inline">Schedule a Call</span>
+        <span className="hidden text-sm font-semibold sm:inline">Book a Call</span>
       </button>
 
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
             <DialogTitle className="font-serif text-xl">
-              Schedule a Free Consultation
+              Book a Free Consultation
             </DialogTitle>
             <DialogDescription className="pt-2 leading-relaxed">
               This is a placeholder for Calendly integration. In the live

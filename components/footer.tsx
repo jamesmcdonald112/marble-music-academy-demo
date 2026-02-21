@@ -20,7 +20,7 @@ export function Footer() {
         <div className="flex items-center gap-8">
           <a
             href={content.ctaHref}
-            className="text-sm font-medium text-foreground underline underline-offset-4 decoration-accent transition-colors hover:text-accent"
+            className="inline-flex items-center justify-center rounded-md bg-accent px-5 py-2.5 text-sm font-medium text-accent-foreground transition-colors hover:bg-accent/90"
           >
             {content.ctaLabel}
           </a>
@@ -45,21 +45,12 @@ export function Footer() {
           <p className="text-xs text-muted-foreground/70">
             {"\u00A9 " + new Date().getFullYear() + " " + content.name + ". All rights reserved."}
           </p>
-          <div className="flex items-center gap-4">
-            <a
-              href="/privacy"
-              className="text-xs text-muted-foreground/50 transition-colors hover:text-muted-foreground"
-            >
-              Privacy Policy
-            </a>
-            <span className="text-xs text-muted-foreground/30">{"/"}</span>
-            <button
-              onClick={() => window.dispatchEvent(new Event("open-cookie-banner"))}
-              className="text-xs text-muted-foreground/50 transition-colors hover:text-muted-foreground"
-            >
-              Cookie Settings
-            </button>
-          </div>
+          <a
+            href="/privacy"
+            className="text-xs text-muted-foreground/50 transition-colors hover:text-muted-foreground"
+          >
+            Privacy Policy
+          </a>
         </div>
       </div>
     </footer>

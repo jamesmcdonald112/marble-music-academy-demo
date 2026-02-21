@@ -84,12 +84,20 @@ export function SongExamples() {
 
         {/* CTA */}
         <div className="mt-14 text-center">
-          <a
-            href={content.ctaHref}
-            className="inline-flex items-center justify-center rounded-md bg-accent px-8 py-3.5 text-sm font-medium text-accent-foreground transition-colors hover:bg-accent/90"
-          >
-            {content.ctaLabel}
-          </a>
+          <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
+            <a
+              href={content.ctaHref}
+              className="inline-flex items-center justify-center rounded-md bg-accent px-8 py-3.5 text-sm font-medium text-accent-foreground transition-colors hover:bg-accent/90"
+            >
+              {content.ctaLabel}
+            </a>
+            <a
+              href={content.secondaryCtaHref}
+              className="inline-flex items-center justify-center rounded-md border border-border px-8 py-3.5 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
+            >
+              {content.secondaryCtaLabel}
+            </a>
+          </div>
         </div>
       </div>
 

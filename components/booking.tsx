@@ -16,15 +16,21 @@ export function Booking() {
         <p className="mx-auto mt-4 max-w-lg text-muted-foreground leading-relaxed">
           {content.description}
         </p>
-        <a
-          href={content.ctaHref}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-10 inline-flex items-center justify-center gap-2 rounded-md bg-accent px-10 py-4 text-base font-medium text-accent-foreground transition-colors hover:bg-accent/90"
-        >
-          {content.ctaLabel}
-          <ExternalLink className="h-4 w-4" />
-        </a>
+        <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <a
+            href={content.ctaHref}
+            className="inline-flex items-center justify-center gap-2 rounded-md bg-accent px-10 py-4 text-base font-medium text-accent-foreground transition-colors hover:bg-accent/90"
+          >
+            {content.ctaLabel}
+            <ExternalLink className="h-4 w-4" />
+          </a>
+          <a
+            href={content.secondaryCtaHref}
+            className="inline-flex items-center justify-center rounded-md border border-border px-10 py-4 text-base font-medium text-foreground transition-colors hover:bg-secondary"
+          >
+            {content.secondaryCtaLabel}
+          </a>
+        </div>
         <p className="mt-4 text-xs text-muted-foreground">
           {content.footnote}
         </p>

@@ -40,7 +40,7 @@ export function Testimonials() {
           </a>
           <a
             href={content.secondaryCta.href}
-            className="inline-flex items-center justify-center rounded-md border border-border px-8 py-3.5 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
+            className="inline-flex items-center justify-center rounded-md bg-accent px-8 py-3.5 text-sm font-medium text-accent-foreground transition-colors hover:bg-accent/90"
           >
             {content.secondaryCta.label}
           </a>
