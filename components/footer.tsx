@@ -47,7 +47,7 @@ export function Footer() {
           </p>
           <a
             href="/privacy"
-            className="text-xs text-muted-foreground/80 transition-colors hover:text-muted-foreground"
+            className="text-xs text-muted-foreground transition-colors hover:text-foreground"
           >
             Privacy Policy
           </a>
