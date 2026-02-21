@@ -15,7 +15,7 @@ export function Hero() {
         fill
         priority
         quality={70}
-        className="absolute inset-0 -z-10 object-cover opacity-15"
+        className="absolute inset-0 -z-10 object-cover opacity-30"
         sizes="100vw"
         aria-hidden="true"
       />
