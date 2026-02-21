@@ -191,7 +191,7 @@ export function LeadMagnet() {
                       {!isSubmitting && <ArrowRight className="h-4 w-4" />}
                     </button>
 
-                    <p className="text-center text-xs text-muted-foreground/70">
+                    <p className="text-center text-xs text-muted-foreground/90">
                       {content.footnote}
                     </p>
                   </form>

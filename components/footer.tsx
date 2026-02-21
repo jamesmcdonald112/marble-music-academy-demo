@@ -42,12 +42,12 @@ export function Footer() {
 
         {/* Copyright & privacy */}
         <div className="flex flex-col items-center gap-2">
-          <p className="text-xs text-muted-foreground/70">
+          <p className="text-xs text-muted-foreground/90">
             {"\u00A9 " + new Date().getFullYear() + " " + content.name + ". All rights reserved."}
           </p>
           <a
             href="/privacy"
-            className="text-xs text-muted-foreground/50 transition-colors hover:text-muted-foreground"
+            className="text-xs text-muted-foreground/80 transition-colors hover:text-muted-foreground"
           >
             Privacy Policy
           </a>

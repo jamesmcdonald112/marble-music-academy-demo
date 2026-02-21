@@ -32,8 +32,8 @@ export const siteContent = {
   // ─── Hero ────────────────────────────────────────────────────────
   hero: {
     tagline: "Group Guitar Lessons in Kilkenny",
-    heading: "Structured Group Classes That Actually Work",
-    image: { src: "/hero.webp", alt: "Small group guitar class" },
+    heading: "Structured Group Guitar Classes That Actually Work",
+    image: { src: "/hero-optimized.jpg", alt: "Small group guitar class" },
     description:
       "Group guitar lessons for ages 8–15. Clear weekly structure, consistent progress, and a low-risk 5-week beginner intake — instruments included so they can try it properly before committing.",
     primaryCta: { label: "Book a Call", href: "/book-a-call" },

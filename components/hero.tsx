@@ -14,6 +14,7 @@ export function Hero() {
         alt=""
         fill
         priority
+        quality={70}
         className="absolute inset-0 -z-10 object-cover opacity-15"
         sizes="100vw"
         aria-hidden="true"
@@ -71,11 +72,10 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Bottom decorative blur */}
+      {/* Bottom decorative glow */}
       <div
         aria-hidden="true"
-        className="absolute inset-0 -z-10 bg-cover bg-center opacity-15"
-        style={{ backgroundImage: `url(${image.src})` }}
+        className="absolute inset-0 -z-10 bg-[radial-gradient(80%_50%_at_50%_100%,hsl(24_70%_55%_/_0.10),transparent_70%)]"
       />
 
       {/* Scroll hint */}
