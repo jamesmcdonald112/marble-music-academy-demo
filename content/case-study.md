@@ -9,6 +9,7 @@ In 2022, I ran a paid acquisition funnel for cohort-based group guitar lessons i
 
 - **Inbound enquiries:** 158  
 - **Live conversations:** 137  
+- **Contact rate:** 86.7% (137 / 158)
 - **Customers acquired:** 73  
 - **Overall close rate:** 46% (73 customers / 158 total enquiries)
 - **Live-call close rate:** 53% (73 customers / 137 live conversations)
@@ -79,6 +80,14 @@ The goal was to build a predictable pipeline for a local education business with
 - Calls frequently done in the morning or **8–9pm** after teaching hours
 - Focus: speed-to-lead to reduce drop-off
 
+### Qualification Fields (Captured on the First Call)
+- Student age + current level
+- Goal (casual vs structured progression / exams)
+- Schedule fit (fixed weekly slot requirement)
+- Commitment (5-week intake suitability)
+- Payment readiness (term billing expectations)
+- Practicalities (location / travel / start date)
+
 ### Follow-Up Cadence (3 Touches)
 1. Call attempt (no voicemail)
 2. Call + text/email follow-up
@@ -88,6 +97,17 @@ If no response after final attempt → disqualify
 ### Scheduling Recovery
 - Calendly embedded (booking page + floating widget)
 - Calendly link sent by text/email after missed calls to recover bookings without back-and-forth
+
+### Call Structure (15–20 Minutes)
+1. Confirm age, level, and goals
+2. Confirm schedule fit (fixed weekly slot)
+3. Explain the offer ladder (5-week intake → long-term group)
+4. Set expectations (attendance + term billing)
+5. Check fit and commitment
+6. Next step: secure place (48-hour hold if a slot was available)
+
+### Decision Window (When Capacity Was Tight)
+- If a suitable slot was available, I held it for 48 hours pending confirmation and payment, then released it to the next family on the list.
 
 ## Sales Performance (What the Numbers Show)
 
@@ -361,4 +381,4 @@ Strategically, the experience reinforced three principles:
 2. Margin protection matters more than marginal closes.
 3. Pipeline discipline must continue even at full capacity.
 
-The system demonstrated predictable demand generation, strong close efficiency, and commercially mature delivery economics.
+The system demonstrated predictable demand generation and strong close efficiency.
