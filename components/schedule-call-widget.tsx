@@ -44,6 +44,32 @@ export function ScheduleCallWidget() {
             <p className="text-center text-sm text-muted-foreground">
               Calendly scheduling widget will appear here once connected.
             </p>
+            <div className="w-full rounded-md border border-accent/40 bg-accent/10 p-4 text-center">
+              <p className="text-xs font-semibold uppercase tracking-wide text-accent">
+                Work enquiries
+              </p>
+              <p className="mt-1 text-sm font-medium text-foreground">
+                Interested in working together? Reach me here:
+              </p>
+              <p className="mt-2 text-sm">
+                <a
+                  href="https://www.linkedin.com/in/jamesmcdonald-dev/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-accent underline underline-offset-4"
+                >
+                  linkedin.com/in/jamesmcdonald-dev
+                </a>
+              </p>
+              <p className="mt-1 text-sm">
+                <a
+                  href="mailto:james@jamesmcdonald.dev"
+                  className="font-semibold text-accent underline underline-offset-4"
+                >
+                  james@jamesmcdonald.dev
+                </a>
+              </p>
+            </div>
           </div>
           <DialogFooter>
             <DialogClose asChild>

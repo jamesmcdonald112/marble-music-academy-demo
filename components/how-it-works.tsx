@@ -12,7 +12,7 @@ const bookingCta = siteContent.booking
 
 export function HowItWorks() {
   return (
-    <section id="how-it-works" className="py-24 md:py-32">
+    <section id="how-it-works" className="bg-background py-24 md:py-32">
       <div className="mx-auto max-w-5xl px-6">
         <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground">
           {tagline}

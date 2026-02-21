@@ -12,7 +12,7 @@ const content = siteContent.faq
 
 export function Faq() {
   return (
-    <section id="faq" className="py-24">
+    <section id="faq" className="border-t border-border/50 bg-secondary/30 py-24">
       <div className="mx-auto max-w-2xl px-6">
         <p className="text-xs font-medium uppercase tracking-widest text-muted-foreground">
           {content.tagline}

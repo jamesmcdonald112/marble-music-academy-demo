@@ -4,7 +4,7 @@ const { stats } = siteContent.credentials
 
 export function Credentials() {
   return (
-    <section className="border-y border-border/50 bg-secondary/50 py-16">
+    <section className="border-y border-border/50 bg-secondary/30 py-16">
       <div className="mx-auto grid max-w-5xl grid-cols-2 gap-8 px-6 md:grid-cols-4">
         {stats.map((stat) => (
           <div key={stat.label} className="text-center">

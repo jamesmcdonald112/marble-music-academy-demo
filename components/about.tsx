@@ -5,7 +5,7 @@ const { tagline, heading, image, paragraphs } = siteContent.about
 
 export function About() {
   return (
-    <section id="about" className="border-t border-border/50 py-24 md:py-32">
+    <section id="about" className="border-t border-border/50 bg-background py-24 md:py-32">
       <div className="mx-auto max-w-5xl px-6">
         <div className="grid gap-10 lg:grid-cols-12 lg:items-stretch lg:gap-12">
           <div className="relative ml-0 mr-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-lg lg:col-span-5 lg:mx-0 lg:h-full lg:max-w-none lg:aspect-auto">

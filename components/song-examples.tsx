@@ -37,7 +37,7 @@ export function SongExamples() {
   return (
     <section
       id="songs"
-      className="border-t border-border/50 py-24 md:py-32"
+      className="border-t border-border/50 bg-secondary/30 py-24 md:py-32"
     >
       <div className="mx-auto max-w-5xl px-6">
         <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground">

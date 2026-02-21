@@ -22,7 +22,7 @@ export function ContactForm() {
 
   if (submitted) {
     return (
-      <section id="contact" className="border-t border-border/50 bg-secondary/50 py-24 md:py-32">
+      <section id="contact" className="border-t border-border/50 bg-secondary/30 py-24 md:py-32">
         <div className="mx-auto max-w-lg px-6 text-center">
           <div className="rounded-lg border border-border bg-background p-12">
             <p className="font-serif text-2xl text-foreground">{content.successHeading}</p>
@@ -36,7 +36,7 @@ export function ContactForm() {
   }
 
   return (
-    <section id="contact" className="border-t border-border/50 bg-secondary/50 py-24 md:py-32">
+    <section id="contact" className="border-t border-border/50 bg-secondary/30 py-24 md:py-32">
       <div className="mx-auto max-w-lg px-6">
         <div className="text-center">
           <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground">

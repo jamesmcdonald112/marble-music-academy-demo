@@ -4,7 +4,7 @@ const content = siteContent.testimonials
 
 export function Testimonials() {
   return (
-    <section className="border-t border-border/50 bg-secondary/50 py-24 md:py-32">
+    <section className="border-t border-border/50 bg-background py-24 md:py-32">
       <div className="mx-auto max-w-5xl px-6">
         <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground">
           {content.tagline}

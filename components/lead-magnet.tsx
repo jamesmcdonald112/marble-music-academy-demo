@@ -52,7 +52,7 @@ export function LeadMagnet() {
   }
 
   return (
-    <section className="py-6 md:py-8">
+    <section className="bg-secondary/30 py-6 md:py-8">
       <div className="mx-auto max-w-5xl px-6">
         <div className="overflow-hidden rounded-xl border border-border bg-background shadow-sm">
           <div className="grid md:grid-cols-2">

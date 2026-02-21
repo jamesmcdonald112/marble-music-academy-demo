@@ -20,11 +20,10 @@ export const siteContent = {
   header: {
     logo: "Marble Music Academy",
     navLinks: [
-      { label: "How It Works", href: "#how-it-works" },
-      { label: "Programmes", href: "#programs" },
-      { label: "About", href: "#about" },
-      { label: "FAQ", href: "#faq" },
-      { label: "Contact", href: "#contact" },
+      { label: "Case Study", href: "/case-study" },
+      { label: "Academy", href: "/academy" },
+      { label: "Programmes", href: "/academy#programs" },
+      { label: "Contact", href: "/academy#contact" },
     ],
     ctaLabel: "Book a Call",
     ctaHref: "/book-a-call",

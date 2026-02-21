@@ -26,7 +26,7 @@ export function VideoPreview() {
   const thumbnailUrl = videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : null
 
   return (
-    <section id="watch" className="py-24 md:py-32">
+    <section id="watch" className="border-t border-border/50 bg-secondary/30 py-24 md:py-32">
       <div className="mx-auto max-w-5xl px-6">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground">
